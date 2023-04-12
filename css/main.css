@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #eedcd5;
+    
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: azure
+}
+
+
+/*header*/
+
+.custom-navbar {
+    background: #ffb9b9;
+
+}
+
+.navbar-brand {
+    color: azure;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 400;
+}
+
+nav li {
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* fin header*/
+
+/*main*/
+.bg-main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.parraf {
+    text-align: center;
+    margin: 15px;
+}
+
+/* fin main*/
+
+
+/* contacto*/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.div-titulo {
+    text-align: center;
+    margin: 8px;
+}
+
+
+.main-form {
+    width: 80vw;
+    margin: 10px 0;
+    background: linear-gradient(90deg, rgba(255, 172, 199, 1) 0%, rgba(255, 221, 210, 1) 100%);
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    min-height: 100%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.35);
+
+}
+
+.contenido {
+    background: #f574cd;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.35);
+}
+
+.estilo-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.label {
+    text-align: center;
+    width: 300px;
+    font-weight: 400;
+}
+
+.input {
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ffddd2;
+}
+
+/*fin contacto*/
+
+
+/*footer*/
+
+.bg-footer {
+    background-color: #ffb9b9;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.typep {
+    color: rgb(240, 255, 255);
+    margin: 10px 10px 10px 50px;
+}
+
+.redes a i {
+    font-size: 24px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+    color: deeppink;
+}
+
+/*fin footer*/
+
+/*media querie*/
+
+@media screen and (min-width:320px){
+
+    .navbar-brand{
+        color: azure;
+    }
+
+    .navbar-brand img{
+        width: 100px;
+    }
+    
+}
+
+
+@media screen and (min-width:600px ) {
+    .navbar-brand{
+        color: azure;
+    }
+
+    .navbar-brand img{
+        width: 200px;
+    }
+}
