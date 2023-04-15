@@ -70,6 +70,29 @@ nav li {
 
 /* fin main*/
 
+/*imagen principal home*/
+
+.img-principal {
+    display: flex;
+    justify-content: center;
+    margin:100px;
+    padding: 50px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.35);
+    border-radius: 15px;
+}
+
+/* fin imagen principal home*/
+
+/*video html sobrenosotros*/
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+/*fin video html sobrenosotros*/
+
 
 /* contacto*/
 
@@ -140,6 +163,16 @@ nav li {
 
 /*fin contacto*/
 
+/*card html producto*/
+
+.card{
+    background-color:#ffb9b9;
+    font-family: 'Josefin Sans', sans-serif;
+    border-style: none;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.35);
+}
+
+/*fin card html producto*/
 
 /*footer*/
 
@@ -157,7 +190,7 @@ nav li {
 
 .typep {
     color: rgb(240, 255, 255);
-    margin: 10px 10px 10px 50px;
+    margin: 10px 10px 10px 40px;
 }
 
 .redes a i {
@@ -186,6 +219,13 @@ nav li {
         width: 100px;
     }
     
+    .img-principal{
+        margin: 10px;
+    }
+    .card{
+        margin: 30px 30px 30px 40px;
+        width: 250px;
+    }
 }
 
 
@@ -196,5 +236,10 @@ nav li {
 
     .navbar-brand img{
         width: 200px;
+    }
+
+    .card{
+        margin: 30px 30px 30px 45px;
+        width: 500px;
     }
 }
