@@ -1,0 +1,14 @@
+
+.navbar {
+    background: $colorUno;
+
+    & .navbar-brand {
+        color: azure;
+        font-family: $fontPrincipal;
+        font-size: 400;
+    }
+
+    & .nav-item {
+        font-family: $fontPrincipal
+    }
+}
